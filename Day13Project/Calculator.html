@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>First Number</h3>
+   <input type="number" id="ip1" name="num1">
+    <h3>Second Number</h3>
+   <input type="number" id="ip2" name="num2">
+   <button onclick="add()">Submit</button>
+   <script>
+    const add=()=>{
+        let num1= document.getElementById("ip1").value;
+        let num2= document.getElementById("ip2").value;
+        document.write(parseInt(num1)+parseInt(num2));
+    }
+   </script>
+</body>
+</html>

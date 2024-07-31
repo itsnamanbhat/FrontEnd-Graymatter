@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="skill">Skillset</label>
+        <input name="skills"  type="checkbox" value="c">C
+        <input name="skills" type="checkbox" value="c++">c++
+        <input name="skills" type="checkbox" value="java">java
+        <input name="skills" type="checkbox" value="javaScript">javascript
+        <button onclick="readCheckBox()">Submit</button>
+
+    </form>
+    <script>
+        const readCheckBox=()=>{
+        let checkText= document.getElementsByName("skills");
+        checkText.forEach(i=>{if(i.checked) console.log(i.value)     }) 
+        }
+    </script>
+</body>
+</html>

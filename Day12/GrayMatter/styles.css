@@ -1,0 +1,139 @@
+p{
+    padding: 0;
+    margin: 0;
+}
+/* navigation bar */
+
+.nav{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.nav_upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+.nav_upper p{
+    color: grey;
+}
+.nav_img{
+    width: 2rem;
+    height: 1.3rem;
+}
+
+.nav_lower{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+.nav_lower a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+}
+
+
+.p{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.products h1,h2{
+    color: rgb(78, 73, 73);
+}
+
+.cards{
+    display: grid;
+    grid-template-rows: 20rem 10rem 20rem;
+    grid-template-columns:4rem 30rem 0.3rem 30rem 0.3rem 30rem 4rem ;
+}
+.card{
+    background-color: #F5FCFC;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.first{
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.second{
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 4/5;
+}
+.third{
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 6/7;
+}
+ .fourth{
+    display: grid;
+    grid-area: 3/2/4/3;
+}
+.fifth{
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+.six{
+    display: grid;
+    grid-column: 6/7;
+    grid-row: 3/4;
+    
+} 
+
+.card img{
+    position: relative;
+    bottom:20px;
+    width: 15rem;
+    left: 2rem;
+}
+
+.cards a{
+    position: relative;
+    top: 65px;
+    width: 8rem;
+    border: 2px solid #FA7202;
+    color: #FA7202;
+    background-color: white;
+    font-weight: bolder;
+}
+
+.cards a:hover{
+    background-color: #FA7202;
+    color: white;
+}
+
+.footer{
+    background-color: #323639;
+    height: 23rem;
+    margin-top: 3rem;
+    display: flex;
+    color: white;
+    gap: 3rem;
+    justify-content: space-evenly;
+}
+
+.footer h2{
+    color: white;
+}
+.second_part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
